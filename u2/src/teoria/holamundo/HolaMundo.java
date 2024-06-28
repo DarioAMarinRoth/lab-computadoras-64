@@ -1,4 +1,4 @@
-package holamundo;
+package teoria.holamundo;
 
 public class HolaMundo {
     public static void main(String[] args) {
