@@ -12,5 +12,6 @@ public class EntradaEstandar {
         miEntero = teclado.nextInt();           // Leemos un entero
         miFlotante = teclado.nextDouble();      // Leemos un flotante
         miTexto = teclado.nextLine();           // Leemos texto
+
     }
 }
