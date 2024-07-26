@@ -10,20 +10,18 @@ public class Ejercicio20 {
         int totalNumerosIngresados = 10;
         int cantidadDePares = 0;
         double sumaPares = 0;
-        int i = 0;
+        int i;
 
         Scanner ent = new Scanner(System.in);
 
-        while (i < totalNumerosIngresados) {
+        for (i = 0; i < totalNumerosIngresados; i++) {
             System.out.println("Ingrese un número entero: ");
             numeroIngresado = ent.nextInt();
             if (numeroIngresado % 2 == 0) {
                 cantidadDePares++;
                 sumaPares += numeroIngresado;
             }
-            i++;
         }
-
         promedio = sumaPares / cantidadDePares;
         System.out.println(promedio);
     }
