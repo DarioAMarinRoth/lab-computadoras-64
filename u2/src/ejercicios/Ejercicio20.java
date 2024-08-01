@@ -1,5 +1,6 @@
 package ejercicios;
 
+import static teoria.funciones.Funciones.*;
 import java.util.Scanner;
 
 public class Ejercicio20 {
@@ -17,7 +18,8 @@ public class Ejercicio20 {
         for (i = 0; i < totalNumerosIngresados; i++) {
             System.out.println("Ingrese un número entero: ");
             numeroIngresado = ent.nextInt();
-            if (numeroIngresado % 2 == 0) {
+
+            if (esPar(numeroIngresado)) {
                 cantidadDePares++;
                 sumaPares += numeroIngresado;
             }
@@ -25,4 +27,6 @@ public class Ejercicio20 {
         promedio = sumaPares / cantidadDePares;
         System.out.println(promedio);
     }
+
+
 }
