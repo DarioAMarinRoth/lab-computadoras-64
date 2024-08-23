@@ -2,7 +2,6 @@ package teoria.funciones;
 
 public class Funciones {
 
-
     public static void saludar(String nombreSaludado) {
         System.out.println("Esta es la función saludar.");
         System.out.println("Hola " + nombreSaludado + "!");
@@ -22,15 +21,14 @@ public class Funciones {
         return (num1 - num2 <= tolerancia) && (num1 - num2 >= -1 * tolerancia);
     }
 
-    public static double raizCuadrada(double argumento) {
+    public static double raizCuadrada(double area) {
 
         double tolerancia = 0.00001;
-        double area = argumento;
         double base = area;
         double altura = 1;
 
         while (!sonIguales(base, altura, tolerancia)) {
-            base = (base + altura) / 2; // Calculamos un nuevo valor para la base, tomando el promedio de los lados.
+            base = (base + altura) / 2;
             altura = area / base;
         }
 
@@ -38,4 +36,21 @@ public class Funciones {
 
     }
 
+    public static int factorialViejaEscuela(int n) {
+
+        int factorial = 1;
+        for (int i = 1; i <= n; i++) {
+            factorial *= i;
+        }
+        return factorial;
+    }
+
+    public static int factorial (int n)  {
+
+        if (n > 1) {
+            return factorial(n - 1) * n;
+        } else {
+            return 1;
+        }
+    }
 }
