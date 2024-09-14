@@ -53,4 +53,12 @@ public class Funciones {
             return 1;
         }
     }
+
+    public static int minimoComunMultiplo(int num1, int num2) {
+        int minimoComunMultiplo = Math.max(num1, num2);
+        while (!(minimoComunMultiplo % num1 == 0 && minimoComunMultiplo % num2 == 0)) {
+            minimoComunMultiplo++;
+        }
+        return minimoComunMultiplo;
+    }
 }
