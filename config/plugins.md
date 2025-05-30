@@ -4,7 +4,6 @@
 
 - **Better Highlights** (2024.3.6)
 - **GitHub** (251.25410.159-IU)
-- **JetBrains Academy** (2025.4-2025.1-530)
 - **Rainbow Brackets** (2024.2.11-241)
 
 ### Temas
@@ -12,7 +11,7 @@
 - **Catppuccin Theme** (3.4.2)
 - **One Dark Theme** (5.13.0)
 
-### Plugins activados de los incluidos por defecto
+## Plugins activados de los incluidos por defecto
 
 - **Gradle** (251.25410.129)
 - **Gradle Extension** (251.25410.129)
