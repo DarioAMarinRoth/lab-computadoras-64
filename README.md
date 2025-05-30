@@ -42,6 +42,19 @@ src/
    cd lab-computadoras-64
    ```
 
+### Configuración del IDE
+
+En la carpeta `config` se encuentran:
+
+1. **Lista de Plugins (`plugins.md`):**
+   - Detalle de los plugins descargados del marketplace de IntelliJ IDEA
+   - Listado de plugins que se mantuvieron activos de los incluidos por defecto
+   - Temas de interfaz instalados
+
+2. **Configuraciones Personalizadas (`settings.zip`):**
+   - Archivo que contiene todas mis configuraciones del IDE
+   - Puede ser importado para replicar exactamente mi entorno de desarrollo desde la siguiente ruta: `file > Manage IDE Settings > Import Settings...` y eligiendo el archivo `settings.zip`.
+
 ## Recursos de Referencia
 
 - [Documentación oficial de Oracle](https://docs.oracle.com/javase/)
