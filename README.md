@@ -4,7 +4,7 @@
 
 Este repositorio contiene los archivos de código fuente desarrollados con fines educativos en las clases de la materia "Laboratorio de computadoras electrónicas" del sexto año de la tecnicatura en electrónica, cuarta división, de la EPET 14.
 
-## Estructura del repositorio
+## Estructura del Repositorio
 
 El curso se organiza en tres módulos secuenciales:
 
@@ -65,4 +65,5 @@ En la carpeta `config` se encuentran:
 ## Contacto
 
 - **Docente:** Marin Roth, Dario A.
-- **Correo Institucional:** [laboratoriodecomputadoraselectronicas64@epet14.edu.ar](mailto:laboratoriodecomputadoraselectronicas64@epet14.edu.ar)
+- **Correo Institucional sexto cuarta:** [laboratoriodecomputadoraselectronicas64@epet14.edu.ar](mailto:laboratoriodecomputadoraselectronicas64@epet14.edu.ar)
+- **Correo Institucional sexto tercera:** [laboratoriodecomputadoraselectronicas63@epet14.edu.ar](mailto:laboratoriodecomputadoraselectronicas63@epet14.edu.ar)
