@@ -2,9 +2,11 @@ package explicaciones;
 
 import java.util.Scanner;
 
+import static utils.Funciones.imprimirVector;
+
 public class IntroduccionArrays {
     public static void main(String[] args) {
-
+//
 //        int[] a;                // La declaración de una variable del tipo int array
 //        a = new int[50];         // Creación de un array de enteros de 5 elementos.
 //
@@ -20,16 +22,12 @@ public class IntroduccionArrays {
 //
 //        System.out.println("El array entero es: ");
 //        System.out.print(a[0] + " ");
-//        System.out.print(a[1] + " ");
-//        System.out.print(a[2] + " ");
-//        System.out.print(a[3] + " ");
-//        System.out.print(a[4] + " ");
 
 
 //        // Llenar el array con entrada de teclado
 //
 //        int[] b = new int[5];
-        Scanner ent = new Scanner(System.in);
+//        Scanner ent = new Scanner(System.in);
 //
 //        System.out.println("Ingrese 5 valores: ");
 //        b[0] = ent.nextInt();
@@ -48,7 +46,7 @@ public class IntroduccionArrays {
 //        System.out.print(b[4] + " ");
 
         // Automatizar la carga de un array:
-
+//
 //        int size = 5;
 //        int[] c = new int[size];
 //
@@ -68,10 +66,8 @@ public class IntroduccionArrays {
 
         // Inicializar un array directamente con sus elementos
 
-        int[] d = {1, 12, 13, 4, 5, 6};
+        int[] d = {1, 12, 13, 4, 5, 6, 10, 15, 1, 10};
         System.out.println("El array que ingresó es: ");
-        for (int i = 0; i < d.length; i++) {
-            System.out.print(d[i] + " ");
-        }
+        imprimirVector(d);
     }
 }
