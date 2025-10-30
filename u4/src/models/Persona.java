@@ -1,11 +1,13 @@
 package models;
 
+import enums.Color;
+
 public class Persona {
     private String nombre;
     private int edad;
-    public String colorDeOjos;
+    public Color colorDeOjos;
 
-    public Persona(String nombre, int edad, String colorDeOjos) {
+    public Persona(String nombre, int edad, Color colorDeOjos) {
         this.nombre = nombre;
         this.edad = edad;
         this.colorDeOjos = colorDeOjos;
@@ -20,5 +22,12 @@ public class Persona {
                 ", edad=" + edad +
                 ", colorDeOjos='" + colorDeOjos + '\'' +
                 '}';
+    }
+
+    public void setEdad(int edad) {
+        if (edad < 0) {
+            throw new IllegalArgumentException("La edad no puede ser negativa.");
+        }
+        this.edad = edad;
     }
 }
