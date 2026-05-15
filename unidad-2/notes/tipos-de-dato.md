@@ -18,14 +18,14 @@
 - `int`: 32 bits
 - `long`: 64 bits
 
-> [!Note] En la materia normalmente utilizaremos `int` como tipo de dato entero.
+> [!NOTE] En la materia normalmente utilizaremos `int` como tipo de dato entero.
 
 #### Tipos de dato de punto flotante (racionales)
 
 - `float`: 32 bits
 - `double`: 64 bits
 
-> [!Note] En la materia utilizaremos `double` como tipo de dato racional/real.
+> [!NOTE] En la materia utilizaremos `double` como tipo de dato racional/real.
 
 #### Otros tipos de dato
 
@@ -33,7 +33,7 @@
 - `char`: caracteres ASCII (8 bits). Se escriben entre comillas simples `' '`.
 - `String`: Cadenas de texto. Se escriben entre comillas dobles `" "`.
 
-> [!Warning] `String` no es un tipo de dato como tal pero lo usaremos como si lo fuera (por el momento).
+> [!WARNING] `String` no es un tipo de dato como tal pero lo usaremos como si lo fuera (por el momento).
 
 ---
 
@@ -57,7 +57,7 @@ Los compiladores no aceptan cualquier secuencia de caracteres para un identifica
   - Una letra
   - Un guión bajo `_`
   - Un signo de dólar `$`.
-  > [!Caution] Un identificador **NO** puede comenzar con un número.
+  > [!CAUTION] Un identificador **NO** puede comenzar con un número.
 - No se pueden utilizar palabras reservadas del lenguaje como identificadores. Por ejemplo: `int`, `class`, `public`, `if`, `while`, `return`, etc.
 - Un identificador no puede incluir espacios en blanco.
 - Los identificadores pueden contener solo letras, números, `_` y `$`. El uso de cualquier otro símbolo matemático, de puntuación o especial (`@`, `-`, `#`, `+`, `&`, `.`, etc.) es inválido.
