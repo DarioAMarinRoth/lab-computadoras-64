@@ -60,8 +60,10 @@ Los compiladores no aceptan cualquier secuencia de caracteres para un identifica
   - Una letra
   - Un guión bajo `_`
   - Un signo de dólar `$`.
-  > [!CAUTION] 
-  > Un identificador **NO** puede comenzar con un número.
+
+> [!CAUTION] 
+> Un identificador **NO** puede comenzar con un número.
+
 - No se pueden utilizar palabras reservadas del lenguaje como identificadores. Por ejemplo: `int`, `class`, `public`, `if`, `while`, `return`, etc.
 - Un identificador no puede incluir espacios en blanco.
 - Los identificadores pueden contener solo letras, números, `_` y `$`. El uso de cualquier otro símbolo matemático, de puntuación o especial (`@`, `-`, `#`, `+`, `&`, `.`, etc.) es inválido.
