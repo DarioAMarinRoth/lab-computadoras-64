@@ -6,21 +6,21 @@
 4. [x] **Leer entradas del usuario. Parsear.** (clase 15/05)
 5. [ ] **Operadores**
     - [x] Aritméticos.
-    - [ ] Incremento y decremento. (Previsto para el 27/05)
+    - [x] Incremento y decremento. (Previsto para el 27/05)
     - [x] Lógicos.
-    - [ ] Asignación. (Previsto para el 27/05)
+    - [x] Asignación. (Previsto para el 27/05)
     - [ ] Operador ternario. (Previsto para el 29/05)
 6. [ ] **Estructuras de control de flujo:**
     1. [ ] Estructuras condicionales (Previsto para el 27/05)
-        - [ ] if (Previsto para el 27/05)
-        - [ ] if-else (Previsto para el 27/05)
-        - [ ] if-elseif (Previsto para el 27/05)
+        - [x] if (Previsto para el 27/05)
+        - [x] if-else (Previsto para el 27/05)
+        - [x] if-elseif (Previsto para el 27/05)
         - [ ] switch (Previsto para el 29/05)
     2. [ ] Estructuras de repetición
-        - [ ] while (Previsto para el 27/05)
-        - [ ] do-while (Previsto para el 27/05)
+        - [x] while (Previsto para el 27/05)
+        - [x] do-while (Previsto para el 27/05)
         - [ ] for (Previsto para el 29/05)
-    3. [ ] Instrucciones `break` y `continue`. (Previsto para el 27/05)
+    3. [x] Instrucciones `break` y `continue`. (Previsto para el 27/05)
 7. [ ] **Funciones**
     1. [ ] Declaración de funciones (Previsto para el 03/06)
     2. [ ] Tipo de retorno y parámetros (Previsto para el 03/06)
