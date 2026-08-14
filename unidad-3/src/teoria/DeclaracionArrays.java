@@ -25,7 +25,7 @@ void main() {
     // Ejercicio 2:
     // Escribir un programa donde se declare un vector de enteros de
     // 8 elementos. Deje que el usuario ingrese en cada elemento del vector
-    // un dígito de su dni.
+    // un dígito de su DNI.
 
     // Al finalizar, imprima el dni completo.
 
