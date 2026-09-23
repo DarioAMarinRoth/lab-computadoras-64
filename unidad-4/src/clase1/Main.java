@@ -1,4 +1,4 @@
-import clases.Contacto;
+import clase1.Contacto;
 
 void main() {
     // Hacer una aplicación para una agenda del celular
@@ -24,8 +24,18 @@ void main() {
     // División: int
     // Especialidad:
 
+    // Agregar un método que se llame "imprimirInformacion()" que muestre todos los
+    // datos del estudiante
+    // - Apellido:
+    // - Nombre:
+    // - Especialidad:
+    // - Curso: <curso> <division>
+
     // En otro archivo con método main crear
     // un objeto de la clase estudiante y darle
     // valores a los atributos
+
+
+
 
 }

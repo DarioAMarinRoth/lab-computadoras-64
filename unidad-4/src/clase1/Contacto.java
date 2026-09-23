@@ -1,4 +1,4 @@
-package clases;
+package clase1;
 
 public class Contacto {
     public String nombre;
