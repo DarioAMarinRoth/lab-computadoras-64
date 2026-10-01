@@ -5,12 +5,15 @@ public class Persona {
     // Las características -> Atributos
     // Información de los objetos (preferentemente oculta)
 
-    public String nombre;
-    public int edad;
-    public double altura;
+
+
+    private String nombre;
+    private int edad;
+    private double altura;
 
     // Los comportamientos -> Métodos
 
+    // Constructores
     public Persona() {
     }
 
@@ -24,6 +27,20 @@ public class Persona {
         this.altura = altura;
     }
 
+
+    // Métodos
+
+
+    public void asignarEdad(int edad) {
+        if (edad > 0) {         // Validación
+            this.edad = edad;
+        }
+    }
+
+    public int devolverEdad() {
+        return edad;
+    }
+
     public void saludar() {
         IO.println("Hola! soy " + nombre);
     }
@@ -34,6 +51,23 @@ public class Persona {
         IO.println("Altura: " + altura);
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setAltura(double altura) {
+        if (altura > 0) {
+            this.altura = altura;
+        }
+    }
 }
 
 // Tarea:
@@ -48,6 +82,10 @@ public class Persona {
 * - Constructor sin argumentos
 * - Constructor con nombre
 * - Constructor con nombre y nota
+*
+* - Un setter de nombre
+* - Un setter de nota -> validar que la nota esté entre 1 y 10
+* - Un getter de nombre
 *
 * - resumen(): muestra el nombre y la nota de la materia
 * - estaAprobada(): devolver true si la nota es mayor o igual a 7 y false en el caso contrario.

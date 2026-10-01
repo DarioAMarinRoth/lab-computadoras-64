@@ -9,8 +9,9 @@ void main() {
 
     persona1 = new Persona(); // Creando un objeto del tipo Persona y guardándolo en la variable persona1.
 
-
     persona2.mostrarInformacion();
     persona1.mostrarInformacion();
 
+
+    Persona persona3 = new Persona("Luis", 14, 1.2);
 }
