@@ -3,7 +3,6 @@ package clase4;
 import clase2.Persona;
 
 import java.util.ArrayList;
-
 public class Clase4 {
     static void main() {
 

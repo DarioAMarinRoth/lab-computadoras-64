@@ -17,23 +17,23 @@ void main() {
     otroContacto.email = "mengano@epet14.edu.ar";
 
 
-    // Una clase "Estudiante" que tenga:
-    // Nombre
-    // Apellido
-    // Curso: int
-    // División: int
-    // Especialidad:
-
-    // Agregar un método que se llame "imprimirInformacion()" que muestre todos los
-    // datos del estudiante
-    // - Apellido:
-    // - Nombre:
-    // - Especialidad:
-    // - Curso: <curso> <division>
-
-    // En otro archivo con método main crear
-    // un objeto de la clase estudiante y darle
-    // valores a los atributos
+//     Una clase "Estudiante" que tenga:
+//     Nombre
+//     Apellido
+//     Curso: int
+//     División: int
+//     Especialidad:
+//
+//     Agregar un método que se llame "imprimirInformacion()" que muestre todos los
+//     datos del estudiante
+//     - Apellido:
+//     - Nombre:
+//     - Especialidad:
+//     - Curso: <curso> <division>
+//
+//     En otro archivo con método main crear
+//     un objeto de la clase estudiante y darle
+//     valores a los atributos
 
 
 
