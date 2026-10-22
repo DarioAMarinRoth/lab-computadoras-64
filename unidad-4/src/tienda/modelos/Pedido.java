@@ -7,20 +7,14 @@ public class Pedido {
     private String cliente;
     private ArrayList<Producto> productos;
 
-
-
-    // cualquierCosa[] misCosas;
-
     public Pedido(String cliente) {
         this.cliente = cliente;
         productos = new ArrayList<>();
     }
 
-
     public void agregarProducto(Producto producto) {
         productos.add(producto);
     }
-
 
     public double calcularTotal() {
         double total = 0;
